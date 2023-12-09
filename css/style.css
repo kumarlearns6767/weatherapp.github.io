@@ -8,3 +8,10 @@
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
+
+.main-body {
+    background: #222;
+    height: 100vh;
+    min-height: auto;
+
+}
