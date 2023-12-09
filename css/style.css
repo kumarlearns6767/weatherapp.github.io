@@ -10,8 +10,21 @@
 }
 
 .main-body {
-    background: #222;
+    background: #282c34;
     height: 100vh;
     min-height: auto;
+    margin: 0;
+}
+
+.weatherApp-card {
+    width: 90%;
+    max-width: 500px;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 25px;
+    text-align: center;
+    ;
 
 }
