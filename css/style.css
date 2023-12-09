@@ -30,7 +30,7 @@
     }
 
     25% {
-        background: #60d394;
+        background: #097a34;
     }
 
     50% {
@@ -59,6 +59,7 @@
     background: linear-gradient(135deg, #00feba, #5b548a);
     width: 90%;
     max-width: 30rem;
+    height: 35rem;
     margin: 4rem auto 0;
     color: #fff;
     border-radius: 20px;
@@ -108,9 +109,9 @@
 }
 
 .weather h2 {
-    font-size: 45px;
+    font-size: 48px;
     font-weight: 400;
-    margin-top: -10px;
+    margin-top: -5px;
 }
 
 .details {
@@ -123,11 +124,16 @@
 
 .col {
     display: flex;
-    align-items: cneter;
+    align-items: center;
     text-align: left;
 }
 
 .col img {
     width: 50px;
     margin-right: 10px;
+}
+
+.col p {
+    font-size: 17px !important;
+    margin-top: 0px !important;
 }
